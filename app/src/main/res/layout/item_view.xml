@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_margin="2dp"
+    android:padding="10dp"
+    android:background="@drawable/custom_background"
+    android:backgroundTint="@color/purple_200"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:paddingLeft="12dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Tran QUoc CUong"/>
+
+        <TextView
+            android:id="@+id/tv_phone_number"
+            android:paddingLeft="12dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="0335134941"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>
